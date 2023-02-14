@@ -1,0 +1,193 @@
+ /* Header **/
+ /*
+    colors::
+    bg: #313131
+    font -  #CA3E47
+    secondary: 414141
+    tertiary: 525252
+*/
+:root {
+    --bg-color: #313131;
+    --font-color: #CA3E47;
+    --secondary: #414141;
+    --tertiary: #525252;
+    --border_color: #707070;
+  }
+body{
+    background-color: var(--bg-color);
+    color: var(--font-color);
+    font-family: "SyneMono", sans-serif;
+}
+
+header {
+    background-color: var(--secondary);
+    
+    color: var(--font-color);
+    min-height: 64px;
+    
+    min-width: auto;
+    text-decoration:none;
+    border-bottom: var(--font-color) 2px solid;
+    border-radius:  8px;
+    
+    
+}
+header #title {
+    float: left;
+    text-decoration:none;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+header nav{
+    float: right;
+    display: inline;
+    padding-left: 10px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    white-space: nowrap;
+}
+header a{
+    color:var(--font-color);
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size:20px;
+    font-weight: 900;
+    display: inline;
+    
+}
+header  input[type=text]{
+    font-family: "Roboto Mono", sans-serif;
+    float:left;
+    display:inline;
+    color: var(--font-color);
+    font-size: medium;
+    font-weight: 900;
+    padding:5px 5px 5px 5px;
+    width: auto;
+    height: 37px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: var(--tertiary);
+    border-color: var(--border_color);
+    border-width: 3px;
+    border-style: solid;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+header li{
+    
+    float:left;
+    display:inline;
+    vertical-align: middle;
+    align-content: center;
+    padding:5px 5px 5px 5px;
+    width: 37px;
+    height: 37px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: var(--tertiary);
+    border-color: var(--border_color);
+    border-width: 3px;
+    border-style: solid;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    
+}
+header li:hover{
+    border-color: #313131;
+}
+
+popular {
+    scrollbar-color: auto;
+    scroll-behavior: smooth;
+    background-color: var(--secondary);
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    height:284px;
+    width: 1856px;
+    vertical-align: middle;
+    align-content: center;
+    float: left;
+    min-width:50%;
+    width:95%;
+    max-width: 100%;
+    padding: 28px 25px 28px 25px;
+    margin:20px;
+    border-radius:10px;
+}
+popular #boxes{
+    
+    text-align: center;
+    box-sizing: border-box;
+    color: var(--font-color);
+    background-color: var(--tertiary);
+    border-radius: 10px;
+    border-style: solid;
+    padding: 5px 25px 5px 25px;
+    width: 280px;
+    height: 228px;
+    display: inline-block;
+    margin-right: 15px;
+    border-color: var(--border_color);
+    border-width: 3px;
+}
+popular #boxes:hover{
+    border-radius: 10px;
+    border-style: dashed;
+    border-color: #313131;
+    border-width: 4px;
+}
+recents {
+    background-color: var(--secondary);
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    height:284px;
+    width: 1856px;
+    vertical-align: middle;
+    align-content: center;
+    float: left;
+    min-width:50%;
+    width:95%;
+    max-width: 100%;
+    padding: 28px 25px 28px 25px;
+    margin:20px;
+    border-radius:10px;
+}
+recents #boxes h1{
+    font-size: 20px;
+    text-align: center;
+    font-family: "Roboto Mono", sans-serif;
+    font-weight: 400;
+}
+popular #boxes h1{
+    font-size: 20px;
+    text-align: center;
+    font-family: "Roboto Mono", sans-serif;
+    font-weight: 400;
+}
+recents #boxes{
+    
+    
+    box-sizing: border-box;
+    color: var(--font-color);
+    background-color: var(--tertiary);
+    border-radius: 10px;
+    border-style: solid;
+   /* padding: 5px 25px 5px 25px;*/
+    width: 280px;
+    height: 228px;
+    display: inline-block;
+    margin-right: 15px;
+    border-color: var(--border_color);
+    border-width: 3px;
+}
+recents #boxes:hover{
+    border-radius: 10px;
+    border-style: dashed;
+    border-color: #313131;
+    border-width: 4px;
+}
+
