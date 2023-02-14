@@ -3,7 +3,8 @@
 A Desktop and Mobile app and aWebiste
 
 **# Made Using**
-  > Mobile App Made With Kivy 
-  > Desktop Made with DearPyGui
-  > Webiste made using flask for server side and HTML CSS And JS
+  > Mobile App Made With Kivy \n
+  > Desktop Made with DearPyGui\n
+  > Webiste made using flask for server side and HTML CSS And JS\n
+
 
